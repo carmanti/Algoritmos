@@ -1,5 +1,6 @@
 using System;
-namespace Parte1{
+namespace Parte1
+{
     public class Ejercicios{
 
         //Convertir de grados celcius a fahrenheit
