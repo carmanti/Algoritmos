@@ -3,6 +3,29 @@ namespace Parte1
 {
     public class Ejercicios{
 
+        //Calcular el perimetro de un cuadrado
+        public void PerimetroCuadrado(){
+            Console.WriteLine($"Digite un numero: ");
+            int lado = Convert.ToInt32(Console.ReadLine());
+            int resultado = lado *4;
+            Console.WriteLine($"EL perimetro es: {resultado}");            
+            
+        }
+
+        //Calcular la Superficie de un Circulo
+        public void SuperficieCirculo(){
+            Console.WriteLine("Digite un numero: ");
+            int radio = Convert.ToInt32(Console.ReadLine());
+            double resultado = Math.PI * Math.Pow(radio, 2);
+            Console.WriteLine($"EL resultado es: {resultado}");
+            
+        }
+
+        //Realizar un algoritmo que sume dos numeros
+        public int Sumar(int a, int b){
+            return a + b;
+        }
+
         //Convertir de grados celcius a fahrenheit
         public void Convertir(){
             Console.WriteLine($"Digite temperatura");
