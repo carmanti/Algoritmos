@@ -2,7 +2,9 @@
 using Parte2;
 //*************************************************
 var instancia = new Ejercicios2();
-instancia.NumerosPositivos();
+instancia.ParesImpares();
+// instancia.SumaDIez();
+// instancia.NumerosPositivos();
 // instancia.Mostrar();
 // instancia.Imprimir();
 // //*************************************************
