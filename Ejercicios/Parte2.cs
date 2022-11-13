@@ -2,6 +2,35 @@ namespace Parte2
 {
     public class Ejercicios2
     {
+
+        // Calcular la nota media de los alumnos de una clase considerando n numero de alumnos y c numero de notas de cada alumno
+        public void NotasEstudiantes()
+        {
+            Console.WriteLine("Digite el numero de estudiantes: ");
+            int nEstudiantes = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite el numero de notas: ");
+            int nNotas = Convert.ToInt32(Console.ReadLine());
+            var suma = 0;
+            var media = 0;
+            int[,] notas = new int[nEstudiantes, nNotas];
+
+            for (var i = 0; i < nEstudiantes; i++)
+            {
+                Console.WriteLine($"Digite las notas del {i + 1} estudiantes:");
+                for (var j = 0; j < nNotas; j++)
+                {
+                    Console.Write($"Digite la nota del {j + 1} del estudiante {i + 1}:");
+                    notas[i, j] = Convert.ToInt32(Console.ReadLine());
+                    suma += notas[i, j];
+                }
+
+            }
+            media = suma / nNotas;
+            Console.WriteLine($"{media}");
+
+
+        }
+
         //Daddos 10 numeros enteros visualizar la suma de los numeros pares
         //cuanttos numeros pares existen y la media de los numeros impares
         public void ParesImpares()
