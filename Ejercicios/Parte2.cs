@@ -3,6 +3,22 @@ namespace Parte2
     public class Ejercicios2
     {
 
+        //Escribir la suma de los diez primeros numeros pares
+        public void Suma10()
+        {
+            int suma = 0;
+            for (var i = 1; i <= 10; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    suma += i;
+                }
+
+            }
+            Console.WriteLine($"{suma}");
+
+        }
+
         // Calcular la nota media de los alumnos de una clase considerando n numero de alumnos y c numero de notas de cada alumno
         public void NotasEstudiantes()
         {
