@@ -3,6 +3,39 @@ namespace Parte2
     public class Ejercicios2
     {
 
+
+        //Desarrollar un algoritmo que determine en un conjunto de 100 numeros naturales
+        //Cuantos numero son menores de 15
+        //Cuantos mayores de 50
+        // Cuantso entre 25 y 45
+        public void NumerosNaturales()
+        {
+            var menores = 0;
+            var mayores = 0;
+            var entre = 0;
+            var randomNumber = new Random();
+
+            for (var i = -100; i < 100; i++)
+            {
+                var value = randomNumber.Next(-100, 99);
+                if (value < 15)
+                {
+                    menores++;
+                }
+                if (value > 50)
+                {
+                    mayores++;
+                }
+                if (value < 45 && value > 25)
+                {
+                    entre++;
+                }
+            }
+
+            Console.WriteLine($"{menores} {mayores} {entre}");
+
+        }
+
         //Escribir la suma de los diez primeros numeros pares
         public void Suma10()
         {
