@@ -1,8 +1,14 @@
 ﻿using Parte1;
 using Parte2;
+using Parte3;
 //*************************************************
-var instancia = new Ejercicios2();
-instancia.NumerosNaturales();
+var instancia = new Ejercicios3();
+instancia.CambioValor();
+// Console.WriteLine($"{instancia.CambioValor()}");
+
+//*************************************************
+// var instancia = new Ejercicios2();
+// instancia.NumerosNaturales();
 // instancia.Suma10();
 // instancia.NotasEstudiantes();
 // instancia.ParesImpares();
