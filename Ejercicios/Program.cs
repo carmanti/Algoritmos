@@ -3,7 +3,8 @@ using Parte2;
 using Parte3;
 //*************************************************
 var instancia = new Ejercicios3();
-instancia.CambioValor();
+instancia.Mayor();
+// instancia.CambioValor();
 // Console.WriteLine($"{instancia.CambioValor()}");
 
 //*************************************************

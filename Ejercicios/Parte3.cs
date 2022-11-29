@@ -2,6 +2,30 @@ namespace Parte3;
 public class Ejercicios3
 {
 
+    //Mayor de dos numeros
+    public void Mayor()
+    {
+        Console.WriteLine("Digite un numero: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Digite un numero: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"El primer numero es: {num1} el segundo: {num2}");
+
+        if (num1 > num2)
+        {
+            Console.WriteLine($"{num1} es mayor");
+        }
+        else if (num2 > num1)
+        {
+            Console.WriteLine($"{num2} es mayor");
+
+        }
+        else
+        {
+            Console.WriteLine($"Los numero son iguales");
+
+        }
+    }
     //Diseñar una funcion para cambiar de valor dos cariable a y b
     public void CambioValor()
     {
