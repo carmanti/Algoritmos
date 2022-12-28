@@ -2,6 +2,22 @@ namespace Parte3;
 public class Ejercicios3
 {
 
+    // Diseñar una funcion que acepte el dia mes y año y presente en formato dd/mm/aa
+    public void FormatoFecha()
+    {
+        Console.Write($"Digite el año: ");
+        // string año = Convert.ToInt32(Console.ReadLine());
+        string? año = Console.ReadLine();
+        Console.Write($"Digite el mes: ");
+        string? mes = Console.ReadLine();
+        Console.Write($"Digite el dia: ");
+        string? dia = Console.ReadLine();
+        // string fecha = Console.WriteLine(Convert.ToString($"{año}/{mes}/{dia}"));
+        string fecha = $"{año}/{mes}/{dia}";
+        System.Console.WriteLine(fecha);
+
+    }
+
     //Mayor de dos numeros
     public void Mayor()
     {
