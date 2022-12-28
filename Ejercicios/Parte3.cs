@@ -2,6 +2,31 @@ namespace Parte3;
 public class Ejercicios3
 {
 
+    //Escribir una función salario que calcule los salarios de un trabajador para un numero de horas
+    //trabajdo y un salario de hora. las horas que superen las 40 horas semanales se pagaran como extras
+    //con un salario 1,5 el salario ordinario
+    public double Salario()
+    {
+
+        const double valorHora = 8;
+        double salario = 0;
+        Console.WriteLine($"Digite el numero de horas trabajadas: ");
+        double horas = Convert.ToDouble(Console.ReadLine());
+
+        if (horas < 40)
+        {
+            Console.WriteLine(salario = valorHora * horas);
+        }
+        if (horas > 40)
+        {
+            Console.WriteLine(salario = (valorHora * 40) + (horas - 40) * 1.5);
+            Console.WriteLine($"La cantidad de horas extras son: {horas - 40}");
+
+        }
+        return salario;
+
+    }
+
     // Diseñar una funcion que acepte el dia mes y año y presente en formato dd/mm/aa
     public void FormatoFecha()
     {

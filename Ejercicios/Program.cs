@@ -3,7 +3,8 @@ using Parte2;
 using Parte3;
 //*************************************************
 var instancia = new Ejercicios3();
-instancia.FormatoFecha();
+instancia.Salario();
+// instancia.FormatoFecha();
 // instancia.CambioValor();
 // Console.WriteLine($"{instancia.CambioValor()}");
 
