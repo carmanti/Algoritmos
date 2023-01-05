@@ -1,9 +1,15 @@
 ﻿using Parte1;
 using Parte2;
 using Parte3;
+using Parte4;
 //*************************************************
-var instancia = new Ejercicios3();
-instancia.Salario();
+var instancia = new Ejercicios4();
+instancia.SumaVector();
+// instancia.Conteo();
+//*************************************************
+// var instancia = new Ejercicios3();
+// instancia.Digito(25);
+// instancia.Salario();
 // instancia.FormatoFecha();
 // instancia.CambioValor();
 // Console.WriteLine($"{instancia.CambioValor()}");

@@ -2,6 +2,25 @@ namespace Parte3;
 public class Ejercicios3
 {
 
+    //Escribir una función Boolena que determine si un digito esta entre 0 y 9
+    public Boolean Digito(int num)
+    {
+        bool flag;
+        if (num < 9 && num > 0)
+        {
+            Console.WriteLine($"El numero esta entre 0 y 9");
+            flag = true;
+            // return flag;
+        }
+        else
+        {
+            Console.WriteLine($"NUmero fuera de rango");
+            flag = false;
+            // return flag;
+        }
+        return flag;
+    }
+
     //Escribir una función salario que calcule los salarios de un trabajador para un numero de horas
     //trabajdo y un salario de hora. las horas que superen las 40 horas semanales se pagaran como extras
     //con un salario 1,5 el salario ordinario
